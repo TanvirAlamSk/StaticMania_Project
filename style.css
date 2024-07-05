@@ -1,58 +1,36 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
-header {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.navbar {
     display: flex;
     justify-content: space-between;
+    padding: 0 100px;
+    color: white;
+    z-index: 1;
 }
 
-nav li {
-    margin-right: 20px;
-}
-
-nav a {
-    color: #333;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #666;
-}
-
-main {
+.navbar,
+.navbar-item {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 20px;
 }
 
-section {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.navbar-item .home,
+.cabins {
+    padding-right: 40px;
 }
 
-h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+.navbar-item img {
+    height: 20px;
+    padding: 0;
+    margin: 0;
 }
 
-footer {
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
-    color: #666;
+.navbar-item .company-name {
+    font-size: 22px;
+    color: #75FF69;
+    padding: 0;
+    padding-left: 3px;
+    margin: 0;
 }

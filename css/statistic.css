@@ -1,0 +1,84 @@
+/* @font-face {
+    font-family: 'Boska-Extralight';
+    src: url('../fonts/Boska-Extralight.woff2') format('woff2'),
+        url('../fonts/Boska-Extralight.woff') format('woff'),
+        url('../fonts/Boska-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+} */
+
+.statistic {
+    z-index: 1;
+    margin-top: 70px;
+    background-color: white;
+    backface-visibility: hidden;
+    padding: 50px 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistic-left {
+    width: 60%;
+    padding: 0 20px;
+}
+
+.statistic-right {
+    width: 40%;
+    padding: 0 20px;
+}
+
+.statistic-left-item {
+    width: 210px;
+    background-image: url("../assets/Ellipse31.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    gap: 0;
+    /* padding: 0 10px; */
+    align-items: center;
+    padding: 10px 0;
+    height: 260px;
+}
+
+.statistic-left-item div {
+    padding: 0;
+    margin: 0;
+}
+
+.tree {
+    height: 100px;
+    /* margin: 20px 0; */
+    padding: 0;
+}
+
+.g {
+    font-size: 70px;
+    font-weight: 200;
+    font-family: "Playfair Display", serif;
+    padding: 0;
+    margin: 0;
+}
+
+.statistic-right-items {
+    margin: 40px 0;
+}
+
+.statistic-right-items p {
+    margin: 0;
+}
+
+.statistic-right-item {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+.statistic-right-item h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.statistic-right-item small {
+    margin-bottom: 15px;
+}
