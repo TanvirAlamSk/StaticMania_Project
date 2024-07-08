@@ -1,0 +1,62 @@
+.review {
+    background-color: #F9F9F9;
+    padding: 60px;
+    padding-right: 0;
+}
+
+.reviwe-title-section {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.review-title {
+    font-size: 60px;
+    margin: 0;
+}
+
+.reviwe-section {
+    margin-top: 100px;
+    display: flex;
+    gap: 70px;
+    overflow: hidden;
+    padding-left: 50px;
+}
+
+.reviwe-section-item {
+    position: relative;
+}
+
+.review-img {
+    width: 378px;
+    height: 477px;
+}
+
+.comment {
+    height: 100px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    margin-left: -30px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    backface-visibility: hidden;
+    bottom: 20px;
+}
+
+.comment p,
+h5 {
+    margin: 0;
+    font-family: serif;
+}
+
+.comment h5 {
+    font-size: 25px;
+}
+
+.comment p {
+    font-size: 18px;
+}

@@ -1,13 +1,3 @@
-/* @font-face {
-    font-family: 'Boska-Extralight';
-    src: url('../fonts/Boska-Extralight.woff2') format('woff2'),
-        url('../fonts/Boska-Extralight.woff') format('woff'),
-        url('../fonts/Boska-Extralight.ttf') format('truetype');
-    font-weight: 200;
-    font-display: swap;
-    font-style: normal;
-} */
-
 .banner {
     background-color: #1D3A37;
     margin: -95px 0;
@@ -22,7 +12,7 @@
     background-position: center;
     display: flex;
     justify-content: center;
-    background-size: 400px;
+    background-size: 300px;
     padding: 100px;
     border: 2px dashed #75FF69;
     border-radius: 100%;
@@ -34,13 +24,13 @@
 .title {
     font-size: 140px;
     color: white;
-    padding: 25px 0 0 0;
     gap: 0;
     margin-bottom: 0;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0;
-    font-weight: 100;
+    margin-top: 85px;
+    font-weight: 400;
+    padding-bottom: 0;
+    line-height: 80%;
 }
 
 .title span {
@@ -48,7 +38,7 @@
     color: #75FF69;
     margin: 0;
     font-style: italic;
-    margin: 0;
+    padding-bottom: 0;
 }
 
 
@@ -56,12 +46,16 @@
     display: flex;
     justify-content: center;
     font-size: 17px;
-    margin-bottom: -48px;
+    line-height: 20%;
+    margin-top: 20px;
+    margin-bottom: -20px;
 
 }
 
 .subtitle {
     text-align: center;
     color: white;
-    margin-top: 0px;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+
 }

@@ -1,0 +1,23 @@
+.takl-section {
+    background-color: white;
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.talk-title {
+    font-size: 60px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+
+.talk-btn {
+    margin-top: 50px;
+    padding: 12px 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-weight: bolder;
+}

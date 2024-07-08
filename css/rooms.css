@@ -1,0 +1,43 @@
+.rooms {
+    font-family: 'boska_variable';
+    height: 1200px;
+    background-color: white;
+    padding-top: 100px;
+}
+
+.rooms-title {
+    padding-left: 60px;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.room-type {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.room-type-item1 {
+    background-image: url("../assets/Cabins1.png");
+    background-repeat: no-repeat;
+    height: 505px;
+    width: 378px;
+}
+
+.room-type-item2 {
+    background-image: url("../assets/Cabins2.png");
+    height: 778px;
+    width: 582px;
+    background-repeat: no-repeat;
+}
+
+.room-type-item3 {
+    background-image: url("../assets/Cabins3.png");
+    height: 505px;
+    width: 378px;
+    background-repeat: no-repeat;
+}
